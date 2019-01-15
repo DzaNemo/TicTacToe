@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@android:color/black"
+    tools:context="link.tictactoe.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button_playGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="onButtonClick"
+        android:text="@string/play_game"
+        android:textColor="@android:color/black"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="onBtnClick"
+        android:text="@string/about"
+        android:textColor="@android:color/black"
+        android:typeface="monospace" />
+</LinearLayout>
